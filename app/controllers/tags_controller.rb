@@ -1,4 +1,3 @@
-
 class TagsController < ApplicationController
 
   def index
@@ -16,5 +15,4 @@ class TagsController < ApplicationController
 
     redirect_to tags_path
   end
-
 end
